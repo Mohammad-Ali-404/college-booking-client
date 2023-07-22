@@ -1,0 +1,124 @@
+[
+    {
+        "id": 1,
+        "name": "Harmony University",
+        "image": "https://example.com/harmony_university.jpg",
+        "admissionDates": "Fall semester: Sep 1 - Dec 15",
+        "events": [
+          { "name": "Annual Cultural Fest", "date": "Nov 15-17" },
+          { "name": "Research Symposium", "date": "Apr 20-22" }
+        ],
+        "researchHistory": "Renowned for research in environmental sustainability and biotechnology.",
+        "sports": "Soccer, Basketball, Tennis, Swimming"
+      },
+      {
+        "id": 2,
+        "name": "Elysium Institute",
+        "image": "https://example.com/elysium_institute.jpg",
+        "admissionDates": "Spring semester: Oct 1 - Feb 28",
+        "events": [
+          { "name": "Tech Expo", "date": "Mar 10-12" },
+          { "name": "Elysium Arts Week", "date": "Apr 25-30" }
+        ],
+        "researchHistory": "Known for groundbreaking research in artificial intelligence and robotics.",
+        "sports": "Football, Track and Field"
+      },
+      {
+        "id": 3,
+        "name": "Aurora College",
+        "image": "https://example.com/aurora_college.jpg",
+        "admissionDates": "Rolling admissions",
+        "events": [
+          { "name": "Aurora Fest", "date": "May 1-5" },
+          { "name": "Science Fair", "date": "Oct 5-7" }
+        ],
+        "researchHistory": "Contributions to space research and astronomy, with a dedicated observatory.",
+        "sports": "Various sports activities"
+      },
+      {
+        "id": 4,
+        "name": "Solstice University",
+        "image": "https://example.com/solstice_university.jpg",
+        "admissionDates": "Fall semester: Sep 15 - Dec 31",
+        "events": [
+          { "name": "Solstice Carnival", "date": "Nov 20-22" },
+          { "name": "Tech Innovations Expo", "date": "Mar 5-7" }
+        ],
+        "researchHistory": "Leader in renewable energy research and sustainable architecture.",
+        "sports": "Volleyball, Cricket, Badminton, Athletics"
+      },
+      {
+        "id": 5,
+        "name": "Zenith College",
+        "image": "https://example.com/zenith_college.jpg",
+        "admissionDates": "Summer semester: Mar 1 - May 31",
+        "events": [
+          { "name": "Zenith Fest", "date": "Jun 10-12" },
+          { "name": "Startup Summit", "date": "Sep 15-17" }
+        ],
+        "researchHistory": "Pioneer in computer science and cybersecurity research.",
+        "sports": "Table Tennis, Chess, Swimming"
+      },
+      {
+        "id": 6,
+        "name": "Stellar Academy",
+        "image": "https://example.com/stellar_academy.jpg",
+        "admissionDates": "Fall semester: Aug 15 - Nov 30",
+        "events": [
+          { "name": "Stellar Arts Week", "date": "Oct 20-25" },
+          { "name": "Science Symposium", "date": "Mar 15-18" }
+        ],
+        "researchHistory": "Renowned for contributions to astronomy and astrophysics.",
+        "sports": "Basketball, Baseball, Karate"
+      },
+      {
+        "id": 7,
+        "name": "Voyager Institute",
+        "image": "https://example.com/voyager_institute.jpg",
+        "admissionDates": "Spring semester: Jan 5 - Mar 31",
+        "events": [
+          { "name": "Voyager Con", "date": "Feb 10-12" },
+          { "name": "International Food Fest", "date": "Jun 1-3" }
+        ],
+        "researchHistory": "Global leader in space exploration and satellite technology.",
+        "sports": "Sailing, Archery, Golf"
+      },
+      {
+        "id": 8,
+        "name": "Trinity College",
+        "image": "https://example.com/trinity_college.jpg",
+        "admissionDates": "Fall semester: Jul 1 - Oct 15",
+        "events": [
+          { "name": "Trinity Music Festival", "date": "Oct 1-3" },
+          { "name": "Research Expo", "date": "Apr 15-17" }
+        ],
+        "researchHistory": "Distinguished for contributions to social sciences and humanities.",
+        "sports": "Rugby, Tennis, Hockey"
+      },
+      {
+        "id": 9,
+        "name": "Nova University",
+        "image": "https://example.com/nova_university.jpg",
+        "admissionDates": "Rolling admissions",
+        "events": [
+          { "name": "Nova Sports Week", "date": "Mar 25-30" },
+          { "name": "Tech Hackathon", "date": "Jul 10-12" }
+        ],
+        "researchHistory": "Innovative research in nanotechnology and material sciences.",
+        "sports": "Cricket, Basketball, Athletics"
+      },
+      {
+        "id": 10,
+        "name": "Pinnacle College",
+        "image": "https://example.com/pinnacle_college.jpg",
+        "admissionDates": "Fall semester: Aug 1 - Nov 30",
+        "events": [
+          { "name": "Pinnacle Fashion Show", "date": "Oct 5-7" },
+          { "name": "Science and Technology Symposium", "date": "Apr 10-12" }
+        ],
+        "researchHistory": "Leader in design and architecture research.",
+        "sports": "Soccer, Swimming, Taekwondo"
+      }
+    
+]
+  
