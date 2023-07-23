@@ -3,14 +3,14 @@
 import React from 'react';
 const Banner = () => {
     return (
-        <div className='-mt-8'>
+        <div className='-mt-2'>
             <div className="hero min-h-screen" style={{backgroundImage: 'url(https://i.ibb.co/2PgQdYY/banner.jpg)'}}>
             <div className="hero-overlay bg-opacity-70"></div>
             <div className="hero-content text-center text-neutral-content">
-                <div className="max-w-2xl font-sans">
+                <div className="max-w-2xl font-serif">
                 <h1 className='text-4xl text-white mb-4'>ADMISSION'20</h1>
                 <h1 className="mb-5 text-5xl font-bold">
-                    <span className="block mb-2 text-[#ECAB0A]">Build your Successful</span>
+                    <span className="block mb-2 text-[#fc9928]">Build your Successful</span>
                     <span className="block text-white">Future with Edification</span>
                 </h1>
                 <p className="mb-5 text-xl font-semibold">Find Your Preferred Colleges & Get Your Certificate</p>

@@ -2,8 +2,10 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const SignIn = () => {
+
     return (
         <div>
             <div className="w-full max-w-md mx-auto p-8 space-y-3 rounded-xl bg-gray-800 text-gray-100">
@@ -11,7 +13,7 @@ const SignIn = () => {
                 <form novalidate="" action="" className="space-y-6">
                     <div className="space-y-1 text-sm">
                         <label for="username" className="block text-gray-400">Username</label>
-                        <input type="text" name="username" id="username" placeholder="Username" className="w-full px-4 py-3 rounded-md border-gray-700 bg-white text-black focus:border-violet-400" />
+                        <input type="text" name="name" id="username" placeholder="Username" className="w-full px-4 py-3 rounded-md border-gray-700 bg-white text-black focus:border-violet-400" />
                     </div>
                     <div className="space-y-1 text-sm">
                         <label for="password" className="block text-gray-400">Password</label>
@@ -20,7 +22,7 @@ const SignIn = () => {
                             <a rel="noopener noreferrer" href="#">Forgot Password?</a>
                         </div>
                     </div>
-                    <button className="block w-full p-3 text-center rounded-sm text-gray-900 bg-violet-400">Sign in</button>
+                    <button type='submit' className="block w-full p-3 text-center rounded-sm text-gray-900 bg-violet-400">Sign in</button>
                 </form>
                 <div className="flex items-center pt-4 space-x-1">
                     <div className="flex-1 h-px sm:w-16 bg-gray-700"></div>
@@ -45,7 +47,7 @@ const SignIn = () => {
                     </button>
                 </div>
                 <p className="text-xs text-center sm:px-6 text-gray-400">Don't have an account?
-                    <a rel="noopener noreferrer" href="#" className="underline text-gray-100">Sign up</a>
+                    <Link to='/register'><a rel="noopener noreferrer" href="#" className="underline text-gray-100">Sign up</a></Link>
                 </p>
             </div>
         </div>

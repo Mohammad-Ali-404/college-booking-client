@@ -35,7 +35,7 @@ const NavBar = () => {
                         <Link to="about" className="flex items-center px-2 -mb-1">ABOUT</Link>
                     </li>
                     <li className="flex">
-                        <Link to="" className="flex items-center px-2 -mb-1 dark:text-violet-400 dark:border-violet-400">COLLEGES</Link>
+                        <Link to="college" className="flex items-center px-2 -mb-1 dark:text-violet-400 dark:border-violet-400">COLLEGES</Link>
                     </li>
                 </ul>
                 <Link to="/" aria-label="Back to homepage" className="flex items-center">
@@ -62,8 +62,8 @@ const NavBar = () => {
                 </div>
             </div>
             <div className="items-center flex-shrink-0 hidden lg:flex md:colmun">
-                <Link to='login'><button className="self-center px-8 text-black py-3 font-semibold hover:text-white bg-white  rounded-full shadow hover:bg-[#ECAB0A] transition-colors duration-500 hover:border-[#ECAB0A] border-gray-400 border mr-4">SIGN IN</button></Link>              
-                <button className="self-center px-8 py-3 font-semibold hover:text-black bg-[#ECAB0A] text-white rounded-full shadow hover:bg-white transition-colors duration-500 hover:border-[#ECAB0A] border">SIGN UP</button>
+                <Link to='login'><button className="self-center px-8 text-black py-3 font-semibold hover:text-white bg-white  rounded-full shadow hover:bg-[#fc9928] transition-colors duration-500 hover:border-[#fc9928] border-gray-400 border mr-4">SIGN IN</button></Link>
+                <Link to='register'><button className="self-center px-8 py-3 font-semibold hover:text-black bg-[#fc9928] text-white rounded-full shadow hover:bg-white transition-colors duration-500 hover:border-[#fc9928] border">SIGN UP</button></Link>              
             </div>
         </header>
         </div>
